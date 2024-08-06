@@ -1,52 +1,54 @@
-[
-    {
-        "userId": "001",
-        "userName": "Caesar.Bosco",
-        "password": "EAFyTqHbR4Kt6Sw"
-    },
-    {
-        "userId": "002",
-        "userName": "Presley.Wisoky9",
-        "password": "bRtsuoo1tYIHS3b"
-    },
-    {
-        "userId": "003",
-        "userName": "Alexys_Muller74",
-        "password": "Kk6KMwvRax5wOXV"
-    },
-    {
-        "userId": "004",
-        "userName": "Bartholome_Jerde49",
-        "password": "HTiSQlzXtvTKumD"
-    },
-    {
-        "userId": "005",
-        "userName": "Nettie88",
-        "password": "bhBBiBvhItPkKBW"
-    },
-    {
-        "userId": "006",
-        "userName": "Eliseo.Rutherford",
-        "password": "WSudBMwiMypbU1M"
-    },
-    {
-        "userId": "007",
-        "userName": "Nicole92",
-        "password": "dR1FQ8rT7Up7XWH"
-    },
-    {
-        "userId": "008",
-        "userName": "Raegan_Howell",
-        "password": "hgIUICzxk6dV_CV"
-    },
-    {
-        "userId": "009",
-        "userName": "Trevion.Hilpert84",
-        "password": "g7O4ouiOnZiWLSX"
-    },
-    {
-        "userId": "010",
-        "userName": "Jakob76",
-        "password": "D54h0B9m3yWRpxf"
-    }
-]
+{
+    "users": [
+        {
+            "userId": "001",
+            "userName": "Caesar.Bosco",
+            "password": "EAFyTqHbR4Kt6Sw"
+        },
+        {
+            "userId": "002",
+            "userName": "Presley.Wisoky9",
+            "password": "bRtsuoo1tYIHS3b"
+        },
+        {
+            "userId": "003",
+            "userName": "Alexys_Muller74",
+            "password": "Kk6KMwvRax5wOXV"
+        },
+        {
+            "userId": "004",
+            "userName": "Bartholome_Jerde49",
+            "password": "HTiSQlzXtvTKumD"
+        },
+        {
+            "userId": "005",
+            "userName": "Nettie88",
+            "password": "bhBBiBvhItPkKBW"
+        },
+        {
+            "userId": "006",
+            "userName": "Eliseo.Rutherford",
+            "password": "WSudBMwiMypbU1M"
+        },
+        {
+            "userId": "007",
+            "userName": "Nicole92",
+            "password": "dR1FQ8rT7Up7XWH"
+        },
+        {
+            "userId": "008",
+            "userName": "Raegan_Howell",
+            "password": "hgIUICzxk6dV_CV"
+        },
+        {
+            "userId": "009",
+            "userName": "Trevion.Hilpert84",
+            "password": "g7O4ouiOnZiWLSX"
+        },
+        {
+            "userId": "010",
+            "userName": "Jakob76",
+            "password": "D54h0B9m3yWRpxf"
+        }
+    ]
+}
