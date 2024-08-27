@@ -9,14 +9,13 @@
             "org_name": "CyberDrive"
         },
         {
-            "org_id": "003",
+            "org_id": "3",
             "org_name": "Other"
-        
-],
-    
+        }
+    ],
     "users": [
         {
-            "id": "001",
+            "id": "1",
             "email": "ceaser@gmail.com",
             "username": "Caesar.Bosco",
             "password": "EAFyTqHbR4Kt6Sw",
@@ -25,7 +24,7 @@
             "timezone": "EDT"
         },
         {
-            "id": "002",
+            "id": "2",
             "email": "julia@example.com",
             "username": "JuliaSkyDavis42",
             "password": "jK5m9D2aLc0nQwX",
@@ -34,7 +33,7 @@
             "timezone": "PDT"
         },
         {
-            "id": "003",
+            "id": "3",
             "email": "leo.smith@example.com",
             "username": "LuminousLeo21",
             "password": "Vp2Rj7YtKm6fNxZ",
@@ -43,7 +42,7 @@
             "timezone": "CST"
         },
         {
-            "id": "004",
+            "id": "4",
             "email": "nina.ross@example.com",
             "username": "NinaEchoRoss78",
             "password": "Bz7Lq1RxWm8yJpK",
@@ -51,48 +50,48 @@
             "last_name": "Ross",
             "timezone": "MST"
         }
-],
+    ],
     "projects": [
         {
-            "orgId": "001",
-            "projectId": "001",
+            "orgId": "1",
+            "projectId": "1",
             "projectName": "Business Project",
             "modifiedDate": "2016-12-31T20:00:00Z"
         },
         {
-            "orgId": "002",
-            "projectId": "001",
+            "orgId": "2",
+            "projectId": "1",
             "projectName": "Personal Project",
             "modifiedDate": "2017-12-31T20:00:00Z"
         },
         {
-            "orgId": "001",
-            "projectId": "003",
+            "orgId": "1",
+            "projectId": "3",
             "projectName": "Other Project",
             "modifiedDate": "2016-12-31T21:00:00Z"
         }
     ],
     "runs": [
         {
-            "orgId": "001",
-            "projectId": "001",
-            "runId": "001",
+            "orgId": "1",
+            "projectId": "1",
+            "runId": "1",
             "completion": "70%",
             "runDate": "2016-12-31T20:00:00Z",
             "findings": []
         },
         {
-            "orgId": "001",
-            "projectId": "001",
-            "runId": "002",
+            "orgId": "1",
+            "projectId": "1",
+            "runId": "2",
             "completion": "80%",
             "runDate": "2016-12-31T20:20:00Z",
             "findings": []
         },
         {
-            "orgId": "002",
-            "projectId": "001",
-            "runId": "003",
+            "orgId": "2",
+            "projectId": "1",
+            "runId": "3",
             "completion": "80%",
             "runDate": "2016-12-31T20:20:00Z",
             "findings": []
