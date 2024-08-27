@@ -1,48 +1,56 @@
 {
-    "users": [
-        {
-            "orgId": "001",
-            "userId": "001",
-            "userName": "Caesar.Bosco",
-            "password": "EAFyTqHbR4Kt6Sw",
-            "role": "Reviewer"
-        },
-        {
-            "orgId": "001",
-            "userId": "002",
-            "userName": "Presley.Wisoky9",
-            "password": "bRtsuoo1tYIHS3b",
-            "role": "Owner"
-        },
-        {
-            "orgId": "002",
-            "userId": "001",
-            "userName": "Alexys_Muller74",
-            "password": "Kk6KMwvRax5wOXV",
-            "role": "Editor"
-        },
-        {
-            "orgId": "003",
-            "userId": "004",
-            "userName": "Jordan.Moore",
-            "password": "aBcD1234EfGh",
-            "role": "User"
-        }
-    ],
     "organizations": [
         {
-            "orgId": "001",
-            "orgName": "Business Organization"
+            "org_id": "1",
+            "org_name": "RapidTrust"
         },
         {
-            "orgId": "002",
-            "orgName": "Personal Organization"
+            "org_id": "2",
+            "org_name": "CyberDrive"
         },
         {
-            "orgId": "003",
-            "orgName": "Other Organization"
-        }
+            "org_id": "003",
+            "org_name": "Other"
+        
     ],
+"users": [
+    {
+        "id": "001",
+        "email": "ceaser@gmail.com",
+        "username": "Caesar.Bosco",
+        "password": "EAFyTqHbR4Kt6Sw",
+        "first_name": "Caesar",
+        "last_name": "Bosco",
+        "timezone": "EDT"
+    },
+    {
+        "id": "002",
+        "email": "julia@example.com",
+        "username": "JuliaSkyDavis42",
+        "password": "jK5m9D2aLc0nQwX",
+        "first_name": "Julia",
+        "last_name": "Davis",
+        "timezone": "PDT"
+    },
+    {
+        "id": "003",
+        "email": "leo.smith@example.com",
+        "username": "LuminousLeo21",
+        "password": "Vp2Rj7YtKm6fNxZ",
+        "first_name": "Leo",
+        "last_name": "Smith",
+        "timezone": "CST"
+    },
+    {
+        "id": "004",
+        "email": "nina.ross@example.com",
+        "username": "NinaEchoRoss78",
+        "password": "Bz7Lq1RxWm8yJpK",
+        "first_name": "Nina",
+        "last_name": "Ross",
+        "timezone": "MST"
+    }
+],
     "projects": [
         {
             "orgId": "001",
