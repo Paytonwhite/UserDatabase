@@ -12,44 +12,45 @@
             "org_id": "003",
             "org_name": "Other"
         
-    ],
-"users": [
-    {
-        "id": "001",
-        "email": "ceaser@gmail.com",
-        "username": "Caesar.Bosco",
-        "password": "EAFyTqHbR4Kt6Sw",
-        "first_name": "Caesar",
-        "last_name": "Bosco",
-        "timezone": "EDT"
-    },
-    {
-        "id": "002",
-        "email": "julia@example.com",
-        "username": "JuliaSkyDavis42",
-        "password": "jK5m9D2aLc0nQwX",
-        "first_name": "Julia",
-        "last_name": "Davis",
-        "timezone": "PDT"
-    },
-    {
-        "id": "003",
-        "email": "leo.smith@example.com",
-        "username": "LuminousLeo21",
-        "password": "Vp2Rj7YtKm6fNxZ",
-        "first_name": "Leo",
-        "last_name": "Smith",
-        "timezone": "CST"
-    },
-    {
-        "id": "004",
-        "email": "nina.ross@example.com",
-        "username": "NinaEchoRoss78",
-        "password": "Bz7Lq1RxWm8yJpK",
-        "first_name": "Nina",
-        "last_name": "Ross",
-        "timezone": "MST"
-    }
+],
+    
+    "users": [
+        {
+            "id": "001",
+            "email": "ceaser@gmail.com",
+            "username": "Caesar.Bosco",
+            "password": "EAFyTqHbR4Kt6Sw",
+            "first_name": "Caesar",
+            "last_name": "Bosco",
+            "timezone": "EDT"
+        },
+        {
+            "id": "002",
+            "email": "julia@example.com",
+            "username": "JuliaSkyDavis42",
+            "password": "jK5m9D2aLc0nQwX",
+            "first_name": "Julia",
+            "last_name": "Davis",
+            "timezone": "PDT"
+        },
+        {
+            "id": "003",
+            "email": "leo.smith@example.com",
+            "username": "LuminousLeo21",
+            "password": "Vp2Rj7YtKm6fNxZ",
+            "first_name": "Leo",
+            "last_name": "Smith",
+            "timezone": "CST"
+        },
+        {
+            "id": "004",
+            "email": "nina.ross@example.com",
+            "username": "NinaEchoRoss78",
+            "password": "Bz7Lq1RxWm8yJpK",
+            "first_name": "Nina",
+            "last_name": "Ross",
+            "timezone": "MST"
+        }
 ],
     "projects": [
         {
