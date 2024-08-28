@@ -1,100 +1,167 @@
 {
-    "organizations": [
-        {
-            "org_id": "1",
-            "org_name": "RapidTrust"
-        },
-        {
-            "org_id": "2",
-            "org_name": "CyberDrive"
-        },
-        {
-            "org_id": "3",
-            "org_name": "Other"
-        }
-    ],
-    "users": [
-        {
-            "id": "1",
-            "email": "ceaser@gmail.com",
-            "username": "Caesar.Bosco",
-            "password": "EAFyTqHbR4Kt6Sw",
-            "first_name": "Caesar",
-            "last_name": "Bosco",
-            "timezone": "EDT"
-        },
-        {
-            "id": "2",
-            "email": "julia@example.com",
-            "username": "JuliaSkyDavis42",
-            "password": "jK5m9D2aLc0nQwX",
-            "first_name": "Julia",
-            "last_name": "Davis",
-            "timezone": "PDT"
-        },
-        {
-            "id": "3",
-            "email": "leo.smith@example.com",
-            "username": "LuminousLeo21",
-            "password": "Vp2Rj7YtKm6fNxZ",
-            "first_name": "Leo",
-            "last_name": "Smith",
-            "timezone": "CST"
-        },
-        {
-            "id": "4",
-            "email": "nina.ross@example.com",
-            "username": "NinaEchoRoss78",
-            "password": "Bz7Lq1RxWm8yJpK",
-            "first_name": "Nina",
-            "last_name": "Ross",
-            "timezone": "MST"
-        }
-    ],
-    "projects": [
-        {
-            "orgId": "1",
-            "projectId": "1",
-            "projectName": "Business Project",
-            "modifiedDate": "2016-12-31T20:00:00Z"
-        },
-        {
-            "orgId": "2",
-            "projectId": "1",
-            "projectName": "Personal Project",
-            "modifiedDate": "2017-12-31T20:00:00Z"
-        },
-        {
-            "orgId": "1",
-            "projectId": "3",
-            "projectName": "Other Project",
-            "modifiedDate": "2016-12-31T21:00:00Z"
-        }
-    ],
-    "runs": [
-        {
-            "orgId": "1",
-            "projectId": "1",
-            "runId": "1",
-            "completion": "70%",
-            "runDate": "2016-12-31T20:00:00Z",
-            "findings": []
-        },
-        {
-            "orgId": "1",
-            "projectId": "1",
-            "runId": "2",
-            "completion": "80%",
-            "runDate": "2016-12-31T20:20:00Z",
-            "findings": []
-        },
-        {
-            "orgId": "2",
-            "projectId": "1",
-            "runId": "3",
-            "completion": "80%",
-            "runDate": "2016-12-31T20:20:00Z",
-            "findings": []
-        }
-    ]
+  "organizations": [
+    {
+      "org_id": 1,
+      "org_name": "RapidTrust"
+    },
+    {
+      "org_id": 2,
+      "org_name": "CyberDrive"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "alice@example.com",
+      "username": "alice",
+      "password": "password123",
+      "first_name": "Alice",
+      "last_name": "Smith",
+      "timezone": "UTC"
+    },
+    {
+      "id": 2,
+      "email": "bob@example.com",
+      "username": "bob",
+      "password": "password456",
+      "first_name": "Bob",
+      "last_name": "Johnson",
+      "timezone": "PST"
+    }
+  ],
+  "user_org_mapping": [
+    {
+      "user_id": 1,
+      "org_id": 1,
+      "role": "admin"
+    },
+    {
+      "user_id": 1,
+      "org_id": 2,
+      "role": "user"
+    },
+    {
+      "user_id": 2,
+      "org_id": 2,
+      "role": "user"
+    }
+  ],
+  "projects": [
+    {
+      "proj_id": 1,
+      "proj_name": "AI Research",
+      "modified_date": "2024-08-28"
+    },
+    {
+      "proj_id": 2,
+      "proj_name": "Security Project",
+      "modified_date": "2024-08-25"
+    }
+  ],
+  "projectPermissions": [
+    {
+      "user_id": 1,
+      "proj_id": 1,
+      "permissions": "write"
+    },
+    {
+      "user_id": 2,
+      "proj_id": 2,
+      "permissions": "read"
+    }
+  ],
+  "version": [
+    {
+      "version_number": 1,
+      "version_name": "v1.0",
+      "proj_id": 1
+    },
+    {
+      "version_number": 2,
+      "version_name": "v2.0",
+      "proj_id": 2
+    }
+  ],
+  "runs": [
+    {
+      "run_id": 1,
+      "run_date": "2024-08-28",
+      "version_number": 1
+    },
+    {
+      "run_id": 2,
+      "run_date": "2024-08-27",
+      "version_number": 2
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": 1,
+      "title": "Security Vulnerability",
+      "type": "Fortify",
+      "result": "Failed",
+      "severity": "High",
+      "status": "Not Reviewed"
+    },
+    {
+      "finding_id": 2,
+      "title": "Code Quality Issue",
+      "type": "SonarQube",
+      "result": "Passed",
+      "severity": "Low",
+      "status": "Closed"
+    }
+  ],
+  "controlsAndCCI": [
+    {
+      "control_id": 1,
+      "other": "Control A"
+    },
+    {
+      "control_id": 2,
+      "other": "Control B"
+    }
+  ],
+  "findingControlMapping": [
+    {
+      "finding_id": 1,
+      "control_id": 1
+    },
+    {
+      "finding_id": 2,
+      "control_id": 2
+    }
+  ],
+  "findingSpecialization1": [
+    {
+      "finding_id": 1,
+      "type": "Fortify"
+    }
+  ],
+  "findingSpecialization2": [
+    {
+      "finding_id": 2,
+      "type": "SonarQube"
+    }
+  ],
+  "audits": [
+    {
+      "audit_number": 1,
+      "auditor": "Auditor A",
+      "audit_date": "2024-08-20",
+      "remediation_priority": Immediate,
+      "audit_action": "Mitigate",
+      "finding_id": 2
+    }
+  ],
+  "runsFindings": [
+    {
+      "run_id": 1,
+      "finding_id": 1
+    },
+    {
+      "run_id": 2,
+      "finding_id": 2
+    }
+  ]
 }
