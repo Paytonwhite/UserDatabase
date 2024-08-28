@@ -2,11 +2,11 @@
   "organizations": [
     {
       "org_id": 1,
-      "org_name": "RapidTrust"
+      "org_name": "One"
     },
     {
       "org_id": 2,
-      "org_name": "CyberDrive"
+      "org_name": "Two"
     }
   ],
   "users": [
@@ -14,13 +14,13 @@
       "id": 1,
       "email": "alice@example.com",
       "username": "alice",
-      "password": "password123",
+      "password": "password123"
     },
     {
       "id": 2,
       "email": "bob@example.com",
       "username": "bob",
-      "password": "password456",
+      "password": "password456"
     }
   ],
   "user_org_mapping": [
