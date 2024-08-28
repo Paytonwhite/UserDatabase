@@ -13,13 +13,13 @@
     {
       "id": 1,
       "email": "alice@example.com",
-      "username": "alice",
+      "username": "Alice.Smith",
       "password": "password123"
     },
     {
       "id": 2,
       "email": "bob@example.com",
-      "username": "bob",
+      "username": "bob_86",
       "password": "password456"
     }
   ],
