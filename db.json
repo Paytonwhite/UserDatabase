@@ -12,12 +12,14 @@
   "users": [
     {
       "id": 1,
+      "org_name": "Org1",
       "email": "alice@example.com",
       "username": "Alice.Smith",
       "password": "password123"
     },
     {
       "id": 2,
+      "org_name": "Org1",
       "email": "bob@example.com",
       "username": "bob_86",
       "password": "password456"
